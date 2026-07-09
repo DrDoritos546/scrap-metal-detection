@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Ignore your raw image datasets and text labels
+data/
+
+# Ignore trained YOLO weight checkpoints (.pt files)
+*.pt
+runs/
