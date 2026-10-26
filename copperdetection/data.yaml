@@ -1,0 +1,30 @@
+# 1. Update the top paths to map your new train/val directory tree
+path: /workspace/scrap_dataset 
+train: train/images
+val: val/images
+
+# 2. Leave your 22 classes EXACTLY as they were originally exported
+nc: 22
+names:
+  0: Clean_Copper_Tubes_98
+  1: Thin_Enamled_Wire_89
+  2: Tinned_Wire_90
+  3: Copper_Plates_93
+  4: Brass_Attach_70
+  5: Copper_Elbows_92
+  6: Non_Metals
+  7: Painted_Tubes_98
+  8: Oxidised_Elbows
+  9: Thick_Copper_Wire_99
+  10: Thin_Copper_Wire_98
+  11: Enamled_Copper_Wire_93
+  12: Brass
+  13: Burnt_Wire
+  14: Oxidised_Thick_Wire
+  15: Brass_With_Copper
+  16: Copper_Led_Radiator
+  17: Dirt_Dust
+  18: Baled_Copper
+  19: ICW
+  20: Transformer_Tape
+  21: Tinned_Copper
